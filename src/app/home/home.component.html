@@ -14,12 +14,12 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="menu.html" class="nav-item nav-link">Menu</a>
+                <!-- <a href="index.html" class="nav-item nav-link active">Home</a> -->
+                <a href="#about" class="nav-item nav-link">Sobre nosotros</a>
+                <a href="#service" class="nav-item nav-link">Servicio</a>
+                <a href="#menu" class="nav-item nav-link">Menu</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                   <!--  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a> -->
                     <div class="dropdown-menu text-capitalize">
                         <a href="reservation.html" class="dropdown-item">Reservation</a>
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
@@ -64,7 +64,7 @@
 <!-- Carousel End -->
 
 <!-- About Start -->
-<div class="container-fluid py-5">
+<div id="about" class="container-fluid py-5">
     <div class="container">
         <div class="section-title">
             <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Nosotros</h4>
@@ -99,7 +99,7 @@
 <!-- About End -->
 
 <!-- Service Start -->
-<div class="container-fluid pt-5">
+<div class="container-fluid pt-5" id="service" >
     <div class="container">
         <div class="section-title">
             <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestro Servicio</h4>
@@ -185,7 +185,7 @@
 <!-- Offer End -->
 
 <!-- Menu Start -->
-<div class="container-fluid pt-5">
+<div id="menu" class="container-fluid pt-5">
     <div class="container">
         <div class="section-title">
             <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
@@ -193,14 +193,14 @@
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="mb-5">Hot Coffee</h1>
+                <h1 class="mb-5">Bebidas Calientes</h1>
                 <div class="row align-items-center mb-5">
                     <div class="col-4 col-sm-3">
                         <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
                         <h5 class="menu-price">$5</h5>
                     </div>
                     <div class="col-8 col-sm-9">
-                        <h4>Black Coffee</h4>
+                        <h4>Cafe Negro</h4>
                         <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
                     </div>
                 </div>
@@ -262,3 +262,56 @@
     </div>
 </div>
 <!-- Menu End -->
+
+<!-- Footer Start -->
+<div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+    <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Encuentranos en:</h4>
+            <p><i class="fa fa-map-marker-alt mr-2"></i>7a Sur Entre 8a. y 10a Oriente #56</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>962 222 3545</p>
+            <p class="m-0"><i class="fa fa-envelope mr-2"></i>charlycofferep@outlook.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Siguenos En:</h4>
+            <p>Puedes seguirnos y estar al pendiente de las publicaciones que hacemos para nuestro clientes especiales</p>
+            <div class="d-flex justify-content-start">
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Horarios de Atencion</h4>
+            <div>
+                <h6 class="text-white text-uppercase">Lunes - Viernes</h6>
+                <p>8.00 AM - 8.00 PM</p>
+                <h6 class="text-white text-uppercase">Sabados - Domingos</h6>
+                <p>2.00 PM - 8.00 PM</p>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hoja Informativa</h4>
+            <p>Si necesitas apartar un espacio puedes enviarnos tambien un Email
+                con un min de anticipacion de 2 hr.
+            </p>
+            <div class="w-100">
+                <div class="input-group">
+                    <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Tu Email">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary font-weight-bold px-3">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <p class="mb-2 text-white">Copyright &copy; All Rights Reserved.</p>
+        <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a></p>
+    </div>
+</div>
+<!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
